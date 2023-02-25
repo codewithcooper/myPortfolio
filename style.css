@@ -16,17 +16,22 @@ h2 {
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
 }
+
+body {
+    
+}
+
 .container {
     width: 100%;
+    max-width: 1250px;
     height: auto;
     padding-top: 60px;
-    margin: 0;
+    margin: auto;
     background-color: #D92545;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-content: space-between;
-    border-radius: 3%;
+    border-radius: 1%;
 }
 
 .project {
@@ -97,4 +102,20 @@ p {
 
 a {
     color: #D92545; 
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 40px;
+}
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 40px;
+}
+    .container {
+        border-radius: 0%;
+        padding: 5 5;
+    }
+
 }
