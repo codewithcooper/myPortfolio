@@ -1,0 +1,100 @@
+html {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    margin: 90px 10px 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #0F9ED9;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    margin: 0;
+    background-color: #D92545;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    border-radius: 3%;
+}
+
+.project {
+  max-width: auto;
+  text-align: center;
+}
+
+h3 {
+    color: #fff
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h4 {
+    clear: both;
+    font-family: 'AvenirNextLTPro-Medium', Helvetica, Arial, sans-serif;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    margin-bottom: 36px;
+    padding-top: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact .button a, .contact .button a:link, .contact .button a:active {
+    font-family: 'AvenirNextLTPro-Medium', Helvetica, Arial, sans-serif;
+    color: #051421;
+    font-size: 0.9em;
+    line-height: 1.0em;
+    margin-bottom: 0;
+    padding: 20px 30px 18px 30px;
+    background-color: #0F9ED9;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.button {
+    border-radius: 2%;
+}
+.contact .button {
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    width: 66%;
+    padding: 80px 17% 40px 17%;
+    background: transparent url(../i/main-light-blue-bg.png) top left repeat;
+    font-family: 'AvenirNextLTPro-Regular', Helvetica, Arial, sans-serif;
+    color: #051421;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 0.9em;
+    line-height: 1.0em;
+    margin-bottom: none;
+    color: #ffffff;
+    text-align: center;
+}
+
+p {
+    color: #ffffff;
+}
+
+a {
+    color: #D92545; 
+}
